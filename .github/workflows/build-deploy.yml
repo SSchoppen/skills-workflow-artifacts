@@ -23,6 +23,7 @@ jobs:
         with:
           name: octomatch
           path: dist
+          compression-level: 0
   dev:
     name: Deploy Dev
     needs: build
